@@ -1,0 +1,141 @@
+footer {
+  background: #f2f3f8;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding-top: 25px;
+}
+
+.infoLine {
+  display: flex;
+  justify-content: space-between;
+
+  .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: rgba(128, 128, 128, 255);
+    margin-bottom: 0;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    list-style-type: none;
+    font-weight: 600;
+    font-family: 'Neucha', cursive;
+    font-size: 1.5rem;
+    margin-top: 2.1rem;
+
+    a {
+      color: rgba(37, 37, 37, 255);
+      text-transform: uppercase;
+    }
+  }
+}
+
+.catBlocks {
+  display: flex;
+
+  .second {
+    margin-left: 4rem;
+  }
+}
+
+.contBlocks {
+  display: flex;
+
+  a {
+    padding-left: 17px;
+  }
+
+  .second {
+    padding-left: 3.5rem;
+  }
+
+  .spriteAdress {
+    padding-left: 16px;
+    background-image: url("../img/adress.png");
+    background-repeat: no-repeat;
+  }
+
+  .mail {
+    background-position: -10px -4px;
+  }
+
+  .adress {
+    background-position: -10px -37px;
+  }
+}
+
+.hrefLine {
+  padding: 3rem 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #e6e6e6;
+
+  ul {
+    margin: 0;
+    text-align: center;
+  }
+
+  li {
+    margin: 0 15px;
+    display: inline-block;
+  }
+
+  .spriteHref {
+    display: block;
+    background-image: url("../img/href.png");
+    background-repeat: no-repeat;
+  }
+
+  .vk {
+    width: 22px;
+    height: 20px;
+    background-position: -209px -6px;
+  }
+
+  .ok {
+    width: 15px;
+    height: 21px;
+    background-position: -10px -10px;
+  }
+
+  .face {
+    width: 22px;
+    height: 22px;
+    background-position: -167px -10px;
+  }
+
+  .inst {
+    width: 20px;
+    height: 20px;
+    background-position: -45px -10px;
+  }
+
+  .ln {
+    width: 22px;
+    height: 22px;
+    background-position: -125px -10px;
+  }
+
+  .twit {
+    width: 22px;
+    height: 18px;
+    background-position: -251px -10px;
+  }
+
+  .pint {
+    width: 20px;
+    height: 20px;
+    background-position: -85px -10px;
+  }
+}
+
+.lastLine {
+  padding: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  color: rgba(179, 179, 179, 255);
+  text-align: center;
+}
